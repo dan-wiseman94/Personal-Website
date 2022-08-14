@@ -6,3 +6,15 @@ body  {
 p {
 	color: #444444;
 }
+
+h3 {
+	color: #555555;
+}
+
+.donate {
+	vertical-align:top; 
+	float: right; 
+	width:74px; 
+	height:74px;
+	margin:5px;
+}
