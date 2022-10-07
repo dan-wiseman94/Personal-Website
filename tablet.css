@@ -1,25 +1,15 @@
-html {
-	margin: auto;
-	line-height: 1.75;
-	font-size: 1.25em;
-  }
-
 
 p {
 	color: #444444;
 }
 
-a {
-	color: white;
-	text-decoration: none;
-}
 textarea {
 	resize: none;
 }
 .crypto {
 	display: flex;
-	margin: 10px;
 	justify-content: space-evenly;
+	align-items: center;
 }
 .cryptoContainer {
 	
@@ -29,20 +19,9 @@ textarea {
 	padding: 5px;
 	
 }
-.skills {
-	display: flex;
-}
-.skillsList {
-	flex: 1;
-}
-
 .contactButtonContainer {
 	display: flex;
 	justify-content: space-evenly;
-}
-.contactButtonContainer img {
-	margin-left: 5px;
-margin-right: 5px;
 }
 .contactButton {
 	min-height: 50px;
@@ -53,27 +32,18 @@ margin-right: 5px;
 	font-size: 2rem;
 }
 
-.contactHeader {
-	font-size: 1.5rem;
-	color: whitesmoke;
-}
 h3 {
-	color: #555555;
-}
-
-li {
 	color: #555555;
 }
 .topHeader {
 	text-align: center;
 	float: right;
-	font-size:2rem;
+	font-size:2.2rem;
 	
 }
 
 .me {
 	width:20%;
-	border-radius: 5px;
 }
 
 #inputComplaint {
@@ -91,17 +61,14 @@ li {
 
 * {
 	box-sizing: border-box;
-	font-family:  "Playfair Display", serif;
   }
   
   body {
 	margin: 0;
-	background-image: url("/images/background.webp");
+	font-family:  "Playfair Display", serif;
+	background-image: url("/images/background.jpg");
 	background-size: cover;
-  }
-  article {
-	background-color: lightblue;	
-	border-radius:  15px;
+
   }
   main {
 	
@@ -109,13 +76,12 @@ li {
 
 	margin-left: 25%;
 	border: ridge 3px darkgray;
-	border-radius:  15px;
 	box-shadow: 0 4px 8x 0 rgba(0, 0, 0, 0.2), 0 62px 0px 0 rgba(0, 0, 0, 0.19);
 	margin-right: 25%;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	background: tan;
+	background: lightblue;
 	padding-bottom: 0%;
+	margin-top: 5px;
+	margin-bottom: 5px;
   }
 
   /* Style the header */
@@ -157,6 +123,7 @@ li {
   }
 
   footer {
+	max-width: 400px ;
 	
 	
 	margin-left: auto ;
@@ -169,32 +136,3 @@ li {
 }
 
 
-.littleChatDiv 
-{
-	display: flex;
-	background-color: rgb(3,155,229);
-}
-.classDescription {
-	flex: 1;
-	margin: 0;
-	padding: 1px;
-}
-.contactSection {
-	text-align: center;
-}
-
-
-.cardContainer {
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.mainCard {
-	flex: 1 1 auto;
-}
-.sideCard {
-	flex: 1 1 auto;
-	background-color: antiquewhite;
-}
