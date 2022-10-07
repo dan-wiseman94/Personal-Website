@@ -173,6 +173,7 @@ li {
 {
 	display: flex;
 	background-color: rgb(3,155,229);
+	border: 1px solid black;
 }
 .classDescription {
 	flex: 1;
@@ -197,4 +198,7 @@ li {
 .sideCard {
 	flex: 1 1 auto;
 	background-color: antiquewhite;
+}	
+.containerDiv {
+	border: 2px solid black;
 }
