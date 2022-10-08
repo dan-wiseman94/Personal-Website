@@ -12,7 +12,6 @@ A repository for my personal website.
 * Hosted on Linux VM at Vultr
 
 ## TODO: 
-* Remake in React with modern styling
 * Add more to portfolio section
 
 
